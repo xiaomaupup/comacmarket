@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Markdown specific styles */
+.markdown-body p {
+  margin-bottom: 0.75em;
+  line-height: 1.7;
+}
+.markdown-body strong {
+  font-weight: 600;
+  color: #1e3a8a; /* deep blue */
+}
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 20px);
+}
+

@@ -1,0 +1,5 @@
+{
+  "name": "航空问答小助手",
+  "description": "一个专注于航空知识的智能问答助手，使用DeepSeek API提供专业的回答。",
+  "requestFramePermissions": []
+}
